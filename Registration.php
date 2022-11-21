@@ -21,32 +21,36 @@
               <h2 class="text-uppercase text-center mb-5">Create an account</h2>
 
               <form>
-
                 <div class="form-outline mb-4">
+                  <label class="form-label" for="form3Example1cg"><b>Your Name</b></label>
                   <input type="text" id="form3Example1cg" class="form-control form-control-lg" />
-                  <label class="form-label" for="form3Example1cg">Your Name</label>
                 </div>
 
                 <div class="form-outline mb-4">
+                  <label class="form-label" for="form3Example3cg"><b>Your Email</b></label>
                   <input type="email" id="form3Example3cg" class="form-control form-control-lg" />
-                  <label class="form-label" for="form3Example3cg">Your Email</label>
                 </div>
 
                 <div class="form-outline mb-4">
+                  <label class="form-label" for="form3Example3cg"><b>Mobile No</b></label>
+                  <input type="email" id="form3Example3cg" class="form-control form-control-lg" />
+                </div>
+
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="form3Example4cg"><b>Password</b></label>
                   <input type="password" id="form3Example4cg" class="form-control form-control-lg" />
-                  <label class="form-label" for="form3Example4cg">Password</label>
                 </div>
 
                 <div class="form-outline mb-4">
+                  <label class="form-label" for="form3Example4cdg"><b>Repeat your password</b></label>
                   <input type="password" id="form3Example4cdg" class="form-control form-control-lg" />
-                  <label class="form-label" for="form3Example4cdg">Repeat your password</label>
                 </div>
 
                 <div class="form-check d-flex mb-5">
-                  <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
-                  <label class="form-check-label" for="form2Example3g">
-                    I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                  <label class="form-check-label" for="form2Example3g"> I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
                   </label>
+                  <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
+                   
                 </div>
 
                 <div class="d-flex justify-content-center">

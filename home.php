@@ -11,7 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color:#FAFAD2;">
+    <center>
     <h1>
         Welcome to Home Page........
     </h1>
@@ -21,6 +22,7 @@
 
     <a href = "logout.php"><button>logout</button></a> 
 </body>
+    </center>
 </html>
 
 <?php
