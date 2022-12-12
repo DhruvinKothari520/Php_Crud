@@ -28,18 +28,18 @@
                 ?>
                   <div class="form-outline mb-4">
                     <label class="form-label" for="typeEmailX-2"><b>Email  Address</b></label>
-                    <input type="text " name="uname" id="typeEmailX-2" class="form-control form-control-lg" />
+                    <input type="text " name="uname"  class="form-control form-control-lg" value="<?php echo isset($_COOKIE['nm'])? $_COOKIE['nm']:""; ?>" />
                   </div>
       
                   <div class="form-outline mb-4">
                     <label class="form-label" for="typePasswordX-2"><b>Password</b></label>
-                    <input type="password" name="password" id="typePasswordX-2" class="form-control form-control-lg" />
+                    <input type="password" name="password"  class="form-control form-control-lg" value="<?php echo isset($_COOKIE['pss'])? $_COOKIE['pss']:""; ?>" />
                   </div>
       
                   <!-- Checkbox -->
                   <div class="form-check d-flex justify-content-start mb-4">
-                    <input class="form-check-input" type="checkbox" value="" id="form1Example3" />
-                    <label class="form-check-label" for="form1Example3">Remember password </label>
+                    <input class="form-check-input" type="checkbox" value="" id="form1Example3" name="remember" checked />
+                    <label class="form-check-label">Remember password </label>
                   </div>
       
                   <button class="btn btn-primary btn-lg btn-block" type="submit" name="submit">Login</button> 

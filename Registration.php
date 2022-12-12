@@ -20,30 +20,32 @@
             <div class="card-body p-5" style="background-color: azure;">
               <h2 class="text-uppercase text-center mb-5">Create an account</h2>
 
-              <form>
+              <form action="Register_pro.php", method="post" role="form">
                 <div class="form-outline mb-4">
                   <label class="form-label" for="form3Example1cg"><b>Your Name</b></label>
-                  <input type="text" id="form3Example1cg" class="form-control form-control-lg" />
-                </div>
-
-                <div class="form-outline mb-4">
-                  <label class="form-label" for="form3Example3cg"><b>Your Email</b></label>
-                  <input type="email" id="form3Example3cg" class="form-control form-control-lg" />
+                  <input type="text" id="form3Example1cg" name="uname" class="form-control form-control-lg" />
                 </div>
 
                 <div class="form-outline mb-4">
                   <label class="form-label" for="form3Example3cg"><b>Mobile No</b></label>
-                  <input type="email" id="form3Example3cg" class="form-control form-control-lg" />
+                  <input type="text" id="form3Example3cg" name="mobile" class="form-control form-control-lg" />
                 </div>
 
                 <div class="form-outline mb-4">
+                  <label class="form-label" for="form3Example3cg"><b>Your Email</b></label>
+                  <input type="email" id="form3Example3cg" name="email" class="form-control form-control-lg" />
+                </div>
+
+                
+
+                <div class="form-outline mb-4">
                   <label class="form-label" for="form3Example4cg"><b>Password</b></label>
-                  <input type="password" id="form3Example4cg" class="form-control form-control-lg" />
+                  <input type="password" id="form3Example4cg" name="password" class="form-control form-control-lg" />
                 </div>
 
                 <div class="form-outline mb-4">
                   <label class="form-label" for="form3Example4cdg"><b>Repeat your password</b></label>
-                  <input type="password" id="form3Example4cdg" class="form-control form-control-lg" />
+                  <input type="password" id="form3Example4cdg" name="cpassword" class="form-control form-control-lg" />
                 </div>
 
                 <div class="form-check d-flex mb-5">
@@ -54,7 +56,7 @@
                 </div>
 
                 <div class="d-flex justify-content-center">
-                  <button type="button"
+                  <button type="submit"
                     class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
                 </div>
 
@@ -72,3 +74,8 @@
 </section>
     </body>
     </html>
+
+
+
+
+  
